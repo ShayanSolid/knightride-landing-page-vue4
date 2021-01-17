@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-2">
           <h5 class="text-uppercase mb-4 mt-3 font-weight-bold
-           footer-header text-left">Unternehmen</h5>
+           footer-header text-lg-left text-center">Unternehmen</h5>
           <ul class="nav flex-column text-lg-left">
             <li class="nav-item">
               <router-link to="/#sectionB" class="nav-link" href="#">Die App</router-link>

@@ -3,8 +3,8 @@
 
     <div class="row">
       <div class="row justify-content-center ">
-        <div class="col-11 text-left">
-          <h4 class="display-4 font-weight-bold"> Der Knight</h4>
+        <div class="col-lg-9 text-left">
+          <h4 class="display-1 font-weight-bold"> Der Knight</h4>
           <p class="body">Der Knight besitzt eine Abo-Karte oder eine gekaufte Karte
             der Verkehrsbetriebe mit dieser er berechtigt ist, je nach Bundesland eine oder mehrere
             Personen an Wochentagen ab 19Uhr und am Wochenende ganztägig
@@ -17,8 +17,8 @@
 
     <div class="row justify-content-center">
       <div class="row justify-content-center pt-4 pt-lg-4">
-        <div class="col-11 text-left">
-          <h2 class="display-4 font-weight-bold"> Der Rider</h2>
+        <div class="col-lg-9 text-left">
+          <h2 class="display-1 font-weight-bold"> Der Rider</h2>
           <p class="body">Der Rider sucht nach einer Mitfahrgelegenheit und ist kommunikativ.
             Sein Ziel ist es meistens so günstig und schnell wie möglich von A nach B
             zu kommen. </p>
@@ -46,7 +46,7 @@ export default {
 
 <style scoped>
 .body {
-  font-size: x-large;
+  font-size: 2rem;
 }
 
 </style>

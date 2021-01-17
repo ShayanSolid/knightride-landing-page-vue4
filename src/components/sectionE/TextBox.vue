@@ -1,7 +1,7 @@
 <template>
   <div class="row justify-content-center pt-4 pt-lg-4">
     <div class="col-11 text-center ">
-      <h2 class="display-4 font-weight-bold">{{ header }}</h2>
+      <h2 class="display-2 font-weight-bold">{{ header }}</h2>
       <p class="body">{{ body }}</p>
     </div>
   </div>
@@ -16,4 +16,7 @@ export default {
 
 <style scoped>
 
+.body{
+  font-size: 2rem;
+}
 </style>
