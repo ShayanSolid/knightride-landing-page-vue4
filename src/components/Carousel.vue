@@ -7,13 +7,13 @@
           <div class="row align-items-center p-3">
             <div class="col-sm-6">
               <picture>
-                <source :srcset="require(`@/assets/${item.image_name}.webp`)"
+                <source :srcset="require(`@/assets/carousel/${item.image_name}.webp`)"
                         type="image/webp">
-                <source :srcset="require(`@/assets/${item.image_name}.png`)"
+                <source :srcset="require(`@/assets/carousel/${item.image_name}.png`)"
                         type="image/png">
-                <img :src="require(`@/assets/${item.image_name}.png`)"
+                <img :src="require(`@/assets/carousel/${item.image_name}.png`)"
                      class="img-fluid" :alt='item.image_name'
-                     :width='item.width ? item.width : "600px"'>
+                     :width='item.width ? item.width : "700px"'>
               </picture>
             </div>
 
@@ -113,7 +113,7 @@ export default {
             'mitfährst, sehen wen du mitnimmst \n' +
             'oder bei wem du mitfährst und vieles\n' +
             'mehr.',
-          width: '800px',
+          width: '750px',
         },
         {
           image_name: 'profile3',

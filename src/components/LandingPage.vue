@@ -1,29 +1,46 @@
 <template>
-  <div>
-    <div class="container-fluid m-0 p-0">
-
-      <div id="sectionA" class="p-4">
-        <SectionA/>
+    <div class="container-fluid d-flex flex-column m-0 p-0">
+      <div class="row">
+        <div class="col p-0">
+          <div id="sectionA" class="p-4">
+            <SectionA/>
+          </div>
+        </div>
       </div>
 
-      <div id="sectionB" class="">
-        <SectionB/>
+      <div class="row">
+        <div class="col p-0">
+          <div id="sectionB" class="">
+            <SectionB/>
+          </div>
+        </div>
       </div>
 
-      <div id="sectionC" class="p-4">
-        <SectionC/>
+      <div class="row">
+        <div class="col p-0">
+          <div id="sectionC" class="p-4">
+            <SectionC/>
+          </div>
+        </div>
       </div>
 
-      <div id="sectionE" class="w-100 p-4">
-        <SectionE/>
+      <div class="row">
+        <div class="col p-0">
+          <div id="sectionE" class="p-4">
+            <SectionE/>
+          </div>
+        </div>
       </div>
 
-      <div id="sectionD" class="vh-100 p-4">
-        <SectionD/>
+      <div class="row">
+        <div class="col p-0">
+          <div id="sectionD" class="vh-100 p-4">
+            <SectionD/>
+          </div>
+        </div>
       </div>
-
     </div>
-  </div>
+
 </template>
 
 <script>
@@ -35,7 +52,7 @@ import SectionE from './SectionE';
 
 export default {
   name: 'landing-page',
-  components: { SectionE, SectionD, SectionC, SectionB, SectionA },
+  components: {SectionE, SectionD, SectionC, SectionB, SectionA},
 };
 </script>
 
@@ -56,7 +73,7 @@ export default {
 
 @media only screen and (min-width: 600px) {
   #sectionC {
-    height: 100vh;
+    //height: 100vh;
   }
 }
 

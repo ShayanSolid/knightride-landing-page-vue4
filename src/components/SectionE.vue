@@ -1,6 +1,5 @@
 <template>
-  <div class="container-fluid">
-
+  <div class="">
     <TextBox class="pt-4" header="Unsere Mission" body="Dir den schnellsten Zugang
      zu einer Mitfahrgelegenheit
             zu ermöglichen und diese auch langfristig für dich zugänglich

@@ -32,30 +32,33 @@
     <div>
 
       <div class="row pt-2 pb-2 justify-content-center">
-        <div class="social-icons pl-1 pr-1">
+        <div class=" social-icons pl-1 pr-1">
           <a class=" " href="">
             <img src="../assets/social-network-icons/facebook.svg" alt="facebook-logo">
           </a>
         </div>
 
-        <div class="social-icons pl-1 pr-1">
+        <div class=" social-icons pl-1 pr-1">
           <a class=" " href="">
             <img src="../assets/social-network-icons/instagram.svg" alt="facebook-logo">
           </a>
         </div>
 
-        <div class="social-icons pl-1 pr-1">
+        <div class=" social-icons pl-1 pr-1">
           <a class=" " href="">
             <img src="../assets/social-network-icons/twitter.svg" alt="facebook-logo">
           </a>
         </div>
       </div>
-
-
     </div>
-    <div id="copyright" class="text-center py-3">
-      <div>
-        &copy; 2020 Copyright: <a class="link" href="https://www.knighride.app"> knightride.app </a>
+
+    <div class="copyright row vw-100 py-3">
+      <div class="col-12 p-0">
+        <div class="text-center">
+          <div>
+            &copy; 2020 Copyright: <a class="link" href="https://www.knighride.app"> knightride.app </a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -81,11 +84,11 @@ export default {
   color: #2c3e50;
 }
 
-.social-icons{
+.social-icons {
   width: 50px;
 }
-#copyright {
+
+.copyright {
   background-color: #FECC2F;
-  width: 100vw;
 }
 </style>

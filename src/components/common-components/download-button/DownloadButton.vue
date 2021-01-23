@@ -1,7 +1,9 @@
 <template>
   <div class="row justify-content-center pt-5">
-    <a id="download-button" class="btn btn-dark rounded-pill font-weight-bold btn-lg"
-       href="#" role="button">Zum Download</a>
+    <div class="col">
+      <a id="download-button" class="btn btn-dark rounded-pill font-weight-bold btn-lg"
+         href="#" role="button">Zum Download</a>
+    </div>
   </div>
 </template>
 
