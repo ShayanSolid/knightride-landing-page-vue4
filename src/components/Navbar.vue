@@ -2,9 +2,16 @@
   <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
     <a class="navbar-brand mx-auto pr-lg-2 pl-2 pr-sm-0" href="#">
       <router-link to="/#sectionA" class="container">
-        <img class=" d-inline-block align-top pr-2" id="knightride_logo"
-             src="../assets/knightride-logo.webp" width="30"
-             alt="Logo">
+        <picture>
+          <source srcset="../assets/knightride-logo.webp"
+                  type="image/webp">
+          <source srcset="../assets/knightride-logo.png"
+                  type="image/png">
+          <img class=" d-inline-block align-top pr-2" id="knightride_logo"
+               width="30"
+               src="../assets/Group-838_2x.png"
+               alt="Logo">
+        </picture>
         Knightride
       </router-link>
     </a>

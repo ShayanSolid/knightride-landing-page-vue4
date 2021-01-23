@@ -32,11 +32,10 @@ import SectionB from './SectionB';
 import SectionC from './SectionC';
 import SectionD from './SectionD';
 import SectionE from './SectionE';
-import Carousel from './Carousel';
 
 export default {
   name: 'landing-page',
-  components: { Carousel, SectionE, SectionD, SectionC, SectionB, SectionA },
+  components: { SectionE, SectionD, SectionC, SectionB, SectionA },
 };
 </script>
 
