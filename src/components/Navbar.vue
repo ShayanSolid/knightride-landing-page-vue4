@@ -1,7 +1,7 @@
 <template>
   <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
     <a class="navbar-brand mx-auto pr-lg-2 pl-2 pr-sm-0" href="#">
-      <router-link to="/#sectionA" class="container">
+      <a href="/#sectionA" class="container">
         <picture>
           <source srcset="../assets/knightride-logo.webp"
                   type="image/webp">
@@ -13,7 +13,7 @@
                alt="Logo">
         </picture>
         Knightride
-      </router-link>
+      </a>
     </a>
     <button class="navbar-toggler" type="button"
             data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -25,15 +25,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto ">
         <li class="nav-item">
-          <router-link to="/#sectionB" class="nav-link" href="#">Die App
-            <span class="sr-only">(current)</span>
-          </router-link>
+          <a href="/#sectionB" class="nav-link">Die App</a>
         </li>
         <li class="nav-item">
-          <router-link to="/#sectionC" class="nav-link" href="#">Knight & Rider</router-link>
+          <a href="/#sectionC" class="nav-link">Knight & Rider</a>
         </li>
         <li class="nav-item">
-          <router-link to="/#sectionD" class="nav-link" href="#">Über uns</router-link>
+          <a href="/#sectionD" class="nav-link">Über uns</a>
         </li>
       </ul>
     </div>
