@@ -13,7 +13,7 @@
              alt="knightride-logo-type">
         </picture>
         <h3 class="text-body pb-4"> {{ short_description }}</h3>
-        <h3 class="text-body pb-0"> {{ register_text }}</h3>
+<!--        <h3 class="text-body pb-0"> {{ register_text }}</h3>-->
 
         <div class="container-fluid align-content-end">
           <DownloadIcons/>
@@ -44,7 +44,11 @@ export default {
   components: { DownloadIcons },
   data() {
     return {
-      short_description: 'Deine Mitfahrgelegenheit für öffentliche Verkehrsmittel.',
+      short_description: 'Du wirst jetzt mitgenommen\n' +
+          'und kannst noch einfacher \n' +
+          'Mitnehmen als je zuvor.\n' +
+          'Mit dem Bus. Mit der Bahn.\n' +
+          'Probier es aus.',
       register_text: 'Bekommst es mit sobald wir launchen!',
     };
   },
